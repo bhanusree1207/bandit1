@@ -1,0 +1,26 @@
+# Bandit Level 0
+
+## Objective
+
+To connect to the OverTheWire Bandit server using SSH and access the first level.
+
+## Commands Used
+
+```bash
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+ls
+cat readme
+```
+
+## Steps
+
+1. Connected to the Bandit server using SSH.
+2. Entered the username and password provided for Level 0.
+3. Used `ls` to find the available files.
+4. Used `cat readme` to read the `readme` file and obtain the password for the next level.
+
+## What I Learned
+
+* Basic SSH connection
+* Linux commands like `ls`, and `cat`
+
