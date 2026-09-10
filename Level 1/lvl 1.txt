@@ -1,0 +1,25 @@
+# Bandit Level 1
+
+## Objective
+
+To find the password for the next level by reading a file named `-`.
+
+## Commands Used
+
+```bash
+ls
+cat ./-
+```
+
+## Steps
+
+1. Logged into the Bandit Level 1 account.
+2. Used `ls` to view the files in the directory.
+3. Found a file named `-`.
+4. Used `cat ./-` to read the file.
+5. Obtained the password for the next level.
+
+## What I Learned
+
+* How `./` can be used to specify a file in the current directory.
+* Improved my understanding of basic Linux commands.
